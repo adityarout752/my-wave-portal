@@ -27,8 +27,8 @@ module.exports = {
     rinkeby: {
     
       //WavePortal address:  0x884B7995fe4838F6054CbEfd462CF1d756E5E88e
-      url: "https://eth-rinkeby.alchemyapi.io/v2/J7XkMq7g8CjaPuV58T_xsBMGYIDoENEy",
-      accounts: ["ade2eaa91131340bd05e40f970ece4bc46d08ad6849962d2b8d9bc6a32c69978"]
+      url: process.env.REACT_APP_RIBKEBY_RPC_URL,
+      accounts: [ process.env.REACT_APP_PRIVATE_KEY]
     },
   },
 };
